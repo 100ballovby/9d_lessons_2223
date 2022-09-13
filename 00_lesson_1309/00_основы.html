@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!-- декларация типа документа -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт</title>
+</head>
+<body>
+
+<h1>Hello, world!</h1> <!-- h1 - heading one - заголовок 1 уровня -->
+<p>Это мой первый сайт!</p> <!-- p - paragraph - текст -->
+<hr> <!-- hr - horizontal line - разделитель -->
+
+<!-- p>a <- при нажатии на Tab сделает <p><a></a></p>-->
+<p>Перейти в <a href="https://google.com/"
+target="_blank">Google</a></p> <!-- a - anchor - ссылка -->
+<!-- href - путь, по которому должен пройти пользователь
+ target со значением _blank позволяет автоматически открывать
+ ссылку в новой вкладке.-->
+
+<hr>
+
+<p>Первый вид списка - &lt;ul&gt; -
+    unordered list (маркированный список):</p>
+
+<!-- ul>li*3 <- создает список из 3 элементов -->
+<ul>
+    <li>Первый</li>
+    <li>Второй</li>
+    <li>Третий</li>
+</ul>
+
+<p>Второй вид списка - &lt;ol&gt; -
+    ordered list (нумерованный список). У нумерованных
+    списков есть два атрибута - <code>start</code> (отвечает
+    за число, с которого начнется нумерация),
+    <code>type</code> (отвечает за стиль элементов списка)</p>
+
+<ol start="11" type="I">
+    <li><b>i</b> - маленькие римские цифры (iv, v, i)</li>
+    <li><b>I</b> - большие римские цифры (V, VIII, IX)</li>
+    <li><b>a</b> - маленькие буквы</li>
+    <li><b>A</b> - большие буквы</li>
+    <li><b>1</b> - числа (писать не нужно)</li>
+</ol>
+
+<hr>
+
+<!-- ul>li*3>a <- создаст список из трех пунктов, внутри каждого будет ссылка -->
+<ul>
+    <li><a href="https://amazon.com/" target="_blank">Amazon</a></li>
+    <li><a href="https://google.com/" target="_blank">Google</a></li>
+    <li><a href="https://facebook.com/" target="_blank">Facebook</a></li>
+</ul>
+
+<hr>
+
+<img src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png" alt="картинка с котиком">
+<!--
+ src - путь к картинке
+ alt - текст, который отображается, если картинки сломалась
+ -->
+
+</body>
+</html>
